@@ -12,8 +12,82 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+      .thick-border-blue{
+        height: 12px;
+        background-color:#1f1669;
+      }
+    </style>
+
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/acme-home.png" style="width: 80px; height: auto; position: relative; left: 200px;" alt="">
+        <img src="img/site-logo.png" style="width: 130px; height: auto; position: relative; left: 200px; top: 4px; padding-right:15px; border-right:1px solid #cccccc;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="top: 16px; left: 230px; position: relative;">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active pr-5" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link pl-5 pr-5" href="#">About Us</a>
+          <a class="nav-item nav-link pl-5 pr-5" href="#">Insights</a>
+          <a class="nav-item nav-link pl-5 pr-5" href="#">Events</a>
+          <a class="nav-item nav-link pl-5 pr-5" href="#">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    <div class="thick-border-blue"></div>
+    <div class="container-fluid m-0">
+      <div class="row">
+        <img src="img/banner.jpg" class style="width: 1365px;" alt="banner">
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-9">
+          <h4>ACME Insights</h4>
+          <p>How are factors being used around the world?</p>
+        </div>         
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <img style="position: relative; left: 50px; width: 90%" src="img/cards.png">
+        </div>
+      </div>
+      <div class="row mt-2" style="max-height: 320px;">
+        <img src="img/eventsbg.jpg" class style="width: 1365px;" alt="banner">
+        <div class="events-text" style="position: relative; z-index: 999; top: -220px; color: white;">
+          <div class="row justify-content-center">
+            <div class="col-7">
+              <h4 class="text-center">Our Commitment to Professionals</h4>
+              <p class="text-center">We help our partners delier industry leading results with a commitment to excellence, thought-provoking insights and experienced distribution. We are laser focused on our shared goal -- helping clients achieve their objectives</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-9">
+          <h4>ACME Insights</h4>
+          <p>How are factors being used around the world?</p>
+        </div>         
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <img style="position: relative; left: 50px; width: 90%" src="img/events.jpg">
+        </div>
+      </div>
+    </div>
+    <footer class="row bg-dark justify-content-around mt-3">
+      <div class="mt-2 col-3 text-light">
+        <p>Call us at 111-222-333 for more information</p>
+      </div>
+      <div class="mt-2 col-3 text-light">
+        Social Share 
+      </div>
+    </footer>
   </body>
   </html>
