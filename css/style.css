@@ -1,0 +1,172 @@
+body{
+  overflow-x: hidden;
+}
+@media screen and (min-width: 1200px) and (max-width: 1473px) {
+  .events-text{
+    margin-top: 50px !important;
+  }
+  .text-header-contactus{
+    font-size: 2rem !important;
+  }
+
+  .text-subtext-contactus{
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar-brand{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #acme-site-logo {
+    display: none;
+  }
+  #acme-home-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 50px !important;
+  }
+
+  .row-acme-insights{
+    background-color: darkblue;
+    color: white;
+  }
+
+  .title-insights{
+    font-size: 1rem !important;
+  }
+  .events-text{
+    /* bottom: 430px !important; */
+    margin-top: 15px !important;
+  }
+  .text-header-contactus{
+    font-size: 1.2rem !important;
+  }
+  .text-subtext-contactus{
+    font-size: 0.7rem !important;
+  }
+  .carousel-resp{
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    /* white-space: nowrap; */
+    max-height: 210px;
+    /* display: inline-block; */
+    /* max-width: 605px; */
+  }
+  .text-main-events{
+    font-size: 0.7em !important;
+  }
+  .text-subtext-events{
+    font-size: 0.5em !important;
+  }
+  .btn-eventsgetmore{
+    padding: 0px !important;
+  }
+  .text-location{
+    margin-top: 10px;
+    font-size: 0.7em !important;
+  }
+  footer{
+    display: none !important;
+  }
+  .secondary-footer{
+    display: block !important;
+  }
+}
+.secondary-footer{
+  display: none;
+}
+.thick-border-blue{
+  height: 12px;
+  background-color:#1f1669;
+}
+.navbar-nav{
+  left: 200px;
+  top: 15px;
+  position: relative;
+}
+.nav-item{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.title-insights{
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.events-text{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin-top: 25px;
+}
+.text-header-contactus{
+  font-size: 2rem;
+}
+
+.text-subtext-contactus{
+  font-size: 1rem;
+}
+.img-date-holder{
+  width: 85px;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  top: -14px;
+  left: 10px;
+}
+.eventsdate{
+  position: absolute;
+}
+.text-event-month{
+  margin: 0;
+  position: relative;
+  top: -8px;
+  left: 50px;
+  z-index: 2;
+  color: white;
+  font-weight: 100;
+}
+.text-event-day{
+  margin: 0;
+  position: relative;
+  top: -24px;
+  left: 43px;
+  z-index: 2;
+  color: white;
+  font-weight: 700;
+  font-size: 1.9em
+}
+.text-main-events{
+  margin: 0;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: arial;
+}
+.text-subtext-events{
+  font-size: 0.7em;
+  font-weight: 200;
+}
+.btn-eventsgetmore{
+  background: none;
+  border: 1px solid white;
+  padding: 8px;
+  color: white;
+  font-weight: 500;
+}
+.text-location{
+  position: relative;
+  bottom: 33px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.btn-contactus{
+  background: none;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
